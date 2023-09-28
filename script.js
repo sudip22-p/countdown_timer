@@ -2,7 +2,7 @@ const days=document.getElementById("days");
 const hrs=document.getElementById("hrs");
 const mins=document.getElementById("mins");
 const secs=document.getElementById("secs");
-const targetDate=new Date("June 06 2023");
+const targetDate=new Date("June 06 2025");
 countDown(targetDate);
 function countDown(){
     setInterval(updateCountDown,1000);
